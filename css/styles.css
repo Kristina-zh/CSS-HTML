@@ -1,0 +1,46 @@
+body {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: "#ffffff";
+}
+
+.main-nav a {
+  list-style: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: #03a9f4;
+}
+
+.caption {
+  font-family: "Ubuntu", sans-serif;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  line-height: 17px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.main-list {
+  list-style: none;
+}
+
+button {
+  font-size: 20px;
+}
+
+.main header {
+height: 1200px;
+width: 160px;
+margin: 0%;
+border: 0%;
+padding: 0%
+
+}
