@@ -30,6 +30,7 @@ body {
 
 .menu a {
   text-decoration: none;
+  color: #626262;
 }
 
 .menu li {
@@ -42,6 +43,10 @@ body {
   color: #03a9f4;
 }
 
+section {
+  padding: 20px 0;
+  font-size: 0;
+}
 .row {
   width: 420px;
   display: inline-block;
@@ -49,15 +54,11 @@ body {
 }
 
 .row:not(:nth-last-of-type(-n + 2)) {
-  margin-bottom: 84px;
+  margin-bottom: 134px;
 }
 
 .row:not(:nth-of-type(2n)) {
   margin-right: 56px;
-}
-
-section {
-  padding: 20px 0;
 }
 
 .second-row__img {
@@ -66,7 +67,7 @@ section {
 }
 
 p {
-  padding: 45px 0;
+  font-size: 14px;
 }
 
 .caption {
@@ -74,13 +75,14 @@ p {
   columns: #838282;
   text-transform: uppercase;
   line-height: 17px;
-  padding: 30px 0;
+  margin-bottom: 32px;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 32px;
 }
 
 h2 {
@@ -89,7 +91,7 @@ h2 {
   line-height: 36px;
   text-align: left;
   letter-spacing: -0.02em;
-  margin-top: 3px;
+  margin-bottom: 42px;
 }
 
 button {
@@ -100,7 +102,7 @@ button {
   width: 165px;
   display: block;
   font-size: 20px;
-  margin: 0 auto; 
+  margin: 0 auto;
   margin-top: 50px;
 }
 
