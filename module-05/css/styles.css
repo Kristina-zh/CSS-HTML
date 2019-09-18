@@ -324,7 +324,7 @@ h2::after {
 }
 
 .icons__big {
-  border: 2px solid white;
+  border: 1px solid white;
   height: 50px;
   width: 168px;
   background-color: #323232;
