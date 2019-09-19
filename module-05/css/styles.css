@@ -151,7 +151,7 @@ body {
   position: absolute;
   width: 100%;
   text-align: left;
-  margin-left: 190px;
+  padding-left: 190px;
   top: 220px;
 }
 
@@ -241,6 +241,9 @@ h2::after {
 .collection {
   padding: 100px 0;
   background-color: #e9f0fd;
+}
+.collection__list__link {
+  display: block;
 }
 
 /* footer */

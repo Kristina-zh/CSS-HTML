@@ -38,7 +38,6 @@ body {
   color: #555252;
 }
 
-
 /* header */
 
 .page__nav {
@@ -91,7 +90,6 @@ body {
 .site__nav a:focus {
   color: #62cab0;
 }
-
 
 /* h2 */
 
@@ -186,7 +184,7 @@ section {
   margin-right: 0;
 }
 
-.products__items:nth-of-type(n+5) {
+.products__items:nth-of-type(n + 5) {
   margin-bottom: 0;
 }
 
@@ -195,7 +193,6 @@ section {
 .news__list {
   list-style: none;
   font-size: 0;
-  float: right;
   padding-bottom: 30px;
 }
 
@@ -257,6 +254,6 @@ section {
   margin-right: 0;
 }
 
-SECTION.news {
-  padding-top : 73px;
+section.news {
+  padding-top: 73px;
 }
