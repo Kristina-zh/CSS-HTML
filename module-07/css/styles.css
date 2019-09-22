@@ -1,0 +1,312 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff)
+    format(woff);
+  src: url(../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff2)
+    format(woff2);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff)
+    format(woff);
+  src: url(../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff2)
+    format(woff2);
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-regular.woff)
+    format(woff);
+  src: url(../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-regular.woff2)
+    format(woff2);
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-700.woff)
+    format(woff);
+  src: url(../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-700.woff2)
+    format(woff2);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid red; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* header */
+
+.page__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 115px;
+}
+
+.site__logo {
+  font-size: 30px;
+  color: #fed136;
+  text-decoration: none;
+  font-family: "Great Vibes", cursive;
+  padding-left: 5px;
+}
+
+.site__nav {
+  width: 491px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montra", sans-serif;
+}
+
+.site__nav a {
+  color: #222222;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.site__nav a:hover,
+.site__nav a:focus {
+  color: #fed136;
+}
+
+.site__nav a:hover {
+  opacity: 1;
+}
+
+/* h2 */
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 16px;
+  font-family: "Roboto Slab", sans-serif;
+  font-style: italic;
+  color: #777777;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+/*service  */
+
+.service__box {
+  padding-top: 78px;
+  margin-bottom: 103px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222222;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+.service__list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  height: 232px;
+  font-size: 13px;
+  line-height: 17px;
+  font-family: "Roboto Slab", sans-serif;
+  color: #777777;
+}
+
+.service__list__item {
+  flex-basis: 290px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding-top: 107px;
+}
+
+.icons {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: 50%;
+  background-position-y: 20%;
+}
+
+.icon-1 {
+  background-image: url("../img/icons/Icon-Basket@1X.png");
+}
+
+.icon-2 {
+  background-image: url("../img/icons/Icon-Laptop@1X.png");
+}
+
+.icon-3 {
+  background-image: url("../img/icons/Icon-Locked@1X.png");
+}
+
+.icons::before {
+  display: inline-block;
+  content: "";
+  width: 67px;
+  height: 68px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -125%);
+}
+
+/* contucts */
+
+.contucts {
+  height: 678px;
+  background-color: #222222;
+  background-image: url("../img/Map\ _Image@1X.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.contucts__title {
+  padding-top: 110px;
+  color: #ffffff;
+}
+
+.contucts__p {
+  margin-bottom: 77px;
+}
+
+.placeholders {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.signup input {
+  width: 455px;
+  height: 50px;
+  margin-bottom: 28px;
+  height: 50px;
+  text-align: left;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+  color: #777777;
+}
+
+.signup input:nth-of-type(n + 3) {
+  margin-bottom: 0px;
+}
+
+.left .right {
+  width: 455px;
+  display: flex;
+}
+
+.left {
+  display: block;
+  width: 455px;
+  /* justify-content: left; */
+}
+
+textarea {
+  height: 100%;
+  width: 455px;
+  text-align: left;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+  padding-top: 18px;
+}
+
+/* textarea:input-placeholder {
+  color: red;
+} */
+
+.signup__button {
+  font-size: 18px;
+  padding: 25px 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #fed136;
+  color: #ffffff;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .signup input :valid[type="text"] {
+  outline-color: green;
+} */
+
+.signup input[type="text"]:valid {
+  outline-color: green;
+}
+
+.signup input[type="text"]:invalid {
+  outline-color: red;
+}
+
+.signup input[type="e-mail"]:valid {
+  outline-color: green;
+}
+
+.signup input[type="e-mail"]:invalid {
+  outline-color: red;
+}
+
+.signup textarea[type="message"]:valid {
+  outline-color: green;
+}
+
+.signup textarea[type="message"]:invalid {
+  outline-color: red;
+}
+
