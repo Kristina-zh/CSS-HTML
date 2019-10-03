@@ -1,0 +1,101 @@
+footer {
+  border-top: 1px $main-color-text solid;
+}
+
+.contacts {
+  height: 90px;
+  color: $color-title;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__list {
+    vertical-align: middle;
+    font-size: 14pt;
+    line-height: 17px;
+    font-family: $main-fonts2;
+    text-transform: none;
+  }
+
+  &__span {
+    color: $color-pink;
+  }
+}
+
+
+.buttons {
+  font-size: 0;
+  display: flex;
+
+ .email {
+  border: 1px rgba(153, 153, 153, 0.3) solid;
+  font-style: italic;
+  font-size: 15px;
+  color: rgba(204, 204, 204, 255);
+  text-align: left;
+  background-color: transparent;
+  height: 40px;
+  width: 230px;
+}
+}
+
+.subscribe {
+  background-color: $color-mint;
+  height: 40px;
+  width: 150px;
+  color: $color-white;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+/* hover */
+
+.overlay {
+  position: absolute;
+  width: 383px;
+  height: 473px;
+  background: linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(252, 227, 138, 0.9));
+  top: -11px;
+  left: -11px;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 11px 11px $color-mint;
+  transition: opacity 200ms linear;
+  &:hover {
+    opacity: 1;
+    position: absolute;
+  }
+}
+
+.icons__social {
+  height: 58px;
+  width: 58px;
+  background-color: $color-menu-hover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  border: 1px solid $color-pink;
+  transition: all 200ms linear;
+  &:hover {
+    background-color: $color-pink;
+  }
+}
+
+.svg-menu {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  transform: translate(-55%, -50%);
+  fill: $color-pink;
+}
+
+.icons__social:hover .svg-menu {
+  fill: $color-white;
+}

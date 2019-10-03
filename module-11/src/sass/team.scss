@@ -1,0 +1,38 @@
+.team__text {
+  padding: 47px 111px 96px;
+}
+
+.team__list {
+  list-style: none;
+  font-size: 0px;
+  display: flex;
+  justify-content: space-between;
+
+  &__img {
+    width: 380px;
+    height: 469px;
+    object-fit: cover;
+  }
+  
+  &__title {
+    color: $color-title;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  &__occupation {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 85px;
+  }
+
+  &__item {
+    position: relative;
+  }
+}

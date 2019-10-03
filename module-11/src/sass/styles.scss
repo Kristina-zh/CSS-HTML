@@ -1,4 +1,10 @@
-/*
-   Import partials below
-*/
+
+@import './typography';
+@import './variables';
 @import './normalize';
+@import './basic';
+@import './header';
+@import './placeholder';
+@import './services';
+@import './team';
+@import './footer';

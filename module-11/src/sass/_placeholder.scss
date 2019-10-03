@@ -1,0 +1,31 @@
+.main-title {
+  font-size: 30px;
+  font-family: $main-fonts2;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $color-title;
+  text-align: center;
+  &::after {
+   display: block;
+   width: 60px;
+   height: 3px;
+   background-color: $color-pink;
+   margin: 0 auto;
+   margin-top: 44px;
+   content: "";
+  }
+}
+
+.small-title {
+  font-size: 24px;
+  font-family: $main-fonts3;
+  line-height: 36px;
+  margin-bottom: 20px;
+  color: $color-title;
+  text-align: center;
+}
+
+.title__second {
+  margin-top: 0;
+}
