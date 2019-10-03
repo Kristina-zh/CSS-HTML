@@ -3,14 +3,15 @@ footer {
 }
 
 .contacts {
-  height: 90px;
+  height: 60px;
   color: $color-title;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
   &__list {
     vertical-align: middle;
-    font-size: 14pt;
+    font-size: 14px;
     line-height: 17px;
     font-family: $main-fonts2;
     text-transform: none;

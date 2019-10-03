@@ -1,5 +1,5 @@
 .team__text {
-  padding: 47px 111px 96px;
+  padding: 42px 111px 87px;
 }
 
 .team__list {
@@ -20,8 +20,8 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 29px;
+    padding-bottom: 6px;
   }
 
   &__occupation {
@@ -29,10 +29,13 @@
     font-style: italic;
     font-size: 14px;
     text-align: center;
-    padding-bottom: 85px;
   }
 
   &__item {
     position: relative;
   }
+}
+
+.team {
+  padding-bottom: 79px;
 }
